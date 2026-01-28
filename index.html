@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter : Know the real exchange rates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <p> Convert between different currencies using real-time exchange rates.</p>
+        <div class="converter">
+            <p>
+                <strong>Enter Your Amount:</strong>
+            </p>
+            <input type="number" id="amount" placeholder="Enter amount... " />
+        </div>
+        <div class="dropdown">
+            <div class="from">
+                <label for="fromCurrency">From:</label>
+                <img src="https://flagsapi.com/IN/flat/64.png" alt="" class="src">
+                <select id="fromCurrency">
+                </select>
+            </div>
+
+            <i class="fa-solid fa-right-left"></i>
+
+            <div class="to">
+                <label for="toCurrency">To:</label>
+                <img src="https://flagsapi.com/US/flat/64.png" alt="" class="src">
+                <select id="toCurrency">
+                </select>
+            </div>
+        </div>
+
+        <div class="result" id="result"></div>
+        <button id="convertBtn">Convert</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="clist.js"></script>
+
+</body>
+
+</html>
