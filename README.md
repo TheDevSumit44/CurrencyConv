@@ -5,8 +5,8 @@ A simple and interactive **Currency Converter** web application that allows user
 ---
 
 ## 🔗 Live Demo & Repo  
-🌐 **Live Site:** [legendarysumit.github.io/currency_conv_site](https://TheDevSumit44.github.io/CurrencyConv/)  
-📦 **GitHub Repo:** [github.com/LegendarySumit/currency_conv_site](https://github.com/TheDevSumit44/CurrencyConv)
+🌐 **Live Site:** [TheDevSumit44.github.io/CurrencyConv](https://TheDevSumit44.github.io/CurrencyConv/)  
+📦 **GitHub Repo:** [github.com/TheDevSumit44/CurrencyConv](https://github.com/TheDevSumit44/CurrencyConv)
 
 ---
 
